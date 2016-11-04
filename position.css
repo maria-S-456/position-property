@@ -1,0 +1,49 @@
+.navbar {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+nav {
+	background-color: grey;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+}
+
+.picture {
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	position: absolute;
+	border: 1px solid black;
+}
+ul {
+	display: inline-block; 
+	list-style: none; /* removes bullet points */
+	position: relative;
+	left: 50px; /*moves links to the right from the cat picture*/
+}
+
+li {
+	display: inline-block; /*makes list horizontal*/
+	margin-left: 5px;
+}
+.divcenter {
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;
+	position: relative;
+	margin: auto; /* centers div box horozonaly */
+	top:200px; /*moves it 200px from top*/
+}
+.centerpic {
+	position:relative;
+}
+.cat {
+	bottom: 30%;
+	right: 18%;
+}
+.dog {
+	top: 0%;
+	left: 84%;
+}
